@@ -1,0 +1,10 @@
+body{
+    background-color: aqua;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#SAlumnos{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
