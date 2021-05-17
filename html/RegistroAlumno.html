@@ -8,13 +8,17 @@
 </head>
 <body> 
     <form class="form" action="ejemplo.php" method="get">
+      
+        <p><a href="ListaAlumnos.html">Regresar</a></p>
         <p>Nombre: <input type="text" name="nombres" size="40" required></p>
         <p>Apellido materno: <input type="text" name="apellido_materno" size="40" required></p>
         <p>Apellido paterno: <input type="text" name="apellido_paterno" size="40" required></p>
         <p>Edad: <input type="number" name="edad" min="5" max="15" required></p>
         <p>Sexo:
-          <input type="radio" name="sexo" value="h" required> Hombre
-          <input type="radio" name="sexo" value="m" required> Mujer
+          <select name="sexo">
+            <option value="h">Masculino</option>
+            <option value="m">Femenino</option>
+          </select>
         </p>
         <p>
           Aprobado:
